@@ -1,0 +1,60 @@
+.App{
+  width: 400px;
+  height: 600px;
+  background-color: rgb(235, 233, 233);
+  border-radius: 20px;
+}
+.js-title{
+  width: 100%;
+  height: 60px;
+  background-color: brown;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  text-align: center;
+  padding-top: 15px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.js-form{
+  padding-left: 20px;
+}
+.js-detail{
+  margin-left: 12px;
+  margin-top: -10px;
+}
+input,select{
+  width: 350px;
+  height: 28px;
+  margin-bottom: 10px;
+  font-size: 13px;
+  font-weight: 100;
+  color: #6c6e77;
+}
+label{
+  font-size: 14px;
+}
+.js-button
+{
+  padding: 10px 20px;
+  border: 1px solid;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: brown;
+  color: white;
+  box-shadow: 0px 0.5px 3px brown;
+  transition: background 0.25s ease-in-out;
+}
+.js-button:hover{
+  background-color: white;
+  color: brown;
+}
+.js-button:active{
+  transform: translate(0px, -1px);
+}
+.seedLogo{
+  width: 50px;
+  border-radius: 30px;
+  transform: translateY(-7px);
+}
